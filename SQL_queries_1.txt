@@ -28,7 +28,7 @@ department_id INT primary key auto_increment,
  age INT, 
  salary INT,
  department_id INT,
- foreign key(employee_id) references employee(employee_id)
+ foreign key(department_id) references department(department_id)
  );
  
  -- many to many mapping
