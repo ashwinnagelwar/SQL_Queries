@@ -99,7 +99,15 @@ from employee
 group by address;
 
 -- defining composit key
+create table student_address(
+stud_id int,
+add_id int,
+stud_name varchar(255),
+add_city varchar(255),
+primary key(stud_id,add_id)
+);
 
+select * from student_address;
 
 
 -- find 3rd highest salary from each dept
